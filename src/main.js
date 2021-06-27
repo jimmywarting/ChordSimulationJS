@@ -67,7 +67,7 @@ class B { //Boilerplate
 }
 /* END SUPPORT FUNCTIONS*/
 
-const maxId = 2**proprieties.addressSize;
+var maxId = 2**proprieties.addressSize;
 class Chord { //Main object, coordinator of the system
 	constructor(addressSize, nodesNumber){
 		this.nodes = new Array(nodesNumber); // Nodes array

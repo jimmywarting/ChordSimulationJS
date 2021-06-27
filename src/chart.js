@@ -133,7 +133,7 @@ var mean = distance.reduce((prev, curr, i, arra) => {
     prev += curr;
     return prev;
 }, 0) / (chord.nodesNumber);
-let maxID = (2**proprieties.addressSize)-1;
+var maxID = (2**proprieties.addressSize)-1;
 
 Highcharts.chart('container2', {
     chart: {
